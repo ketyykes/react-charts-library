@@ -1,0 +1,17 @@
+.navbar{
+	li{
+		border:  1px solid black;
+		list-style: none;
+		display: inline-block;
+
+		a{
+			padding: 10px;
+			display: block;
+			text-decoration: none;
+			color: blue;
+			&:hover{
+				background-color:yellowgreen;
+			}
+		}
+	}
+}
